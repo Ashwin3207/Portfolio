@@ -41,6 +41,17 @@ header
         0 0 150px #FF69B4;
     }
     20%, 24%, 55% {       
-      text-shadow: none;
+      color:#69ffb4;
+      text-shadow:
+        0 0 4px #69ffb4,
+        0 0 11px #69ffb4,
+        0 0 19px #69ffb4,
+        0 0 40px #69ffb4,
+        0 0 80px #69ffb4,
+        0 0 90px #69ffb4,
+        0 0 100px #69ffb4,
+        0 0 150px #69ffb4;
+
+      
     }
   }
