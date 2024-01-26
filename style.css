@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik Glitch Pop');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*
+{
+    font-family:Rubik Glitch Pop;
+    font-size: 100px;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:#0F0F0F;
+}
+#test
+{
+    position: absolute;
+    top:0px;
+    overflow: hidden;
+   
+}
+header
+{
+   
+    height: 50px;
+    color:#FF69B4;
+    animation: flicker 1.5s infinite alternate;
+    text-align: center;
+
+    
+}
+@keyframes flicker {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+      text-shadow:
+        0 0 4px #FF69B4,
+        0 0 11px #FF69B4,
+        0 0 19px #FF69B4,
+        0 0 40px #FF69B4,
+        0 0 80px #FF69B4,
+        0 0 90px #FF69B4,
+        0 0 100px #FF69B4,
+        0 0 150px #FF69B4;
+    }
+    20%, 24%, 55% {       
+      text-shadow: none;
+    }
+  }
