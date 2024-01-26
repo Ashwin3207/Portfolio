@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik Glitch Pop');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Miltonian');
+@import url('https://fonts.googleapis.com/css?family=Yellowtail');
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+@import url('https://fonts.googleapis.com/css?family=Pixelify Sans');
 
 *
 {
-    font-family:Rubik Glitch Pop;
-    font-size: 100px;
+    
+    
     margin: 0px;
     padding: 0px;
 }
@@ -18,13 +23,16 @@ body{
     overflow: hidden;
    
 }
-header
-{
-   
-    height: 50px;
+#name
+{   
+   position: absolute;
+   top:200px;
+   left: 38%;
+    font-size: 7rem;
     color:#FF69B4;
     animation: flicker 1.5s infinite alternate;
     text-align: center;
+    font-family:Yellowtail;
 
     
 }
@@ -40,7 +48,7 @@ header
         0 0 100px #FF69B4,
         0 0 150px #FF69B4;
     }
-    20%, 24%, 55% {       
+    20%, 24%, 55% {      
       color:#69ffb4;
       text-shadow:
         0 0 4px #69ffb4,
@@ -50,8 +58,24 @@ header
         0 0 80px #69ffb4,
         0 0 90px #69ffb4,
         0 0 100px #69ffb4,
-        0 0 150px #69ffb4;
+        0 0 150px  #69ffb4;
 
       
     }
+  }
+  #nav
+  {
+    
+    font-family: Pixelify Sans;
+    color: white;
+    text-shadow:
+    0 0 4px white,
+    0 0 11px white,
+    
+   
+  }
+  #nav div{
+    font-size: 2rem;
+    padding: 20px;
+    float: left;
   }
